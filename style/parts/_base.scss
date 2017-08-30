@@ -1,0 +1,78 @@
+* {
+	margin:0;
+	padding: 0;
+	border: 0;
+}
+.clearfix {
+	clear: both;
+}
+
+
+body {
+  background-color: $light-grey;
+  font-family: $regular-font;
+  color: $text-color;
+  position: relative;
+}
+
+// ------- START Typography ------- 
+h1 {
+  font-family: $display-font;
+  color: $brand-color;
+  font-size: 100px;
+}
+
+h2 {
+	@extend h1;
+	font-size: 70px;
+	color: white;
+}
+
+p {
+	font-size: 110%;
+}
+
+.green-heading {
+  @extend h2;
+  color: $brand-color;
+}
+
+// ------- END Typography ------- 
+
+// ------- START Links & Buttons ------- 
+a {
+  text-decoration: none;
+  color: $brand-color;
+}
+a:hover {
+  text-decoration: none;
+  color: $dark-brand-color;
+}
+.yes-btn {
+  border: 1px solid $light-grey;
+  @include border-radius(5px);
+  color: $light-grey;
+  padding: 2% 5%;
+}
+.yes-btn:hover {
+  color: $brand-color;
+  background-color: $light-grey;
+  @include transition(all 0.3s ease-in);
+}
+
+.send-btn {
+  background-color: $brand-color;
+  padding: 2% 8%;
+  @include border-radius(5px);
+  margin: 5%;
+  color: $light-grey;
+  font-size: 150%;
+  border: 2px solid $brand-color;
+  
+}
+.send-btn:hover {
+  background-color: transparent;
+  color: $brand-color;
+  @include transition(all 0.3s ease-in);
+}
+// ------- END Links & Buttons ------- 

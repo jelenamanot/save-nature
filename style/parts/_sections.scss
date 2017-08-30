@@ -1,0 +1,68 @@
+// ------- START All sections -------
+.section {
+  padding: 2% 0 2% 0;
+}
+
+// ------- END All sections -------
+
+// ------- START Why section -------
+.why {
+  background-color: $brand-color;
+  color: $light-grey;
+  .glyphicon {
+    font-size: 400%;
+    margin: 5% 0 5% 0;
+  }
+}
+// ------- END Why section -------
+
+
+// ------- START Do section -------
+.do {
+  #div-one {
+    border-right: 1px solid $brand-color;
+  }
+}
+// ------- END Do section -------
+
+
+// ------- START Who section -------
+.who {
+  padding: 10% 0 10% 0;
+  background-image: linear-gradient(rgba(28,135,136,0.9), rgba(0,0,0,0.5)), url(../../images/who.jpg);
+	background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  p:last-of-type {
+    margin-bottom: 40px;
+  }
+  .green-area {
+    background-color: rgba(28,135,136,0.8);
+    color: $light-grey;
+    padding: 4% 2% 4% 2%;
+    font-size: 20px;
+  }
+}
+
+// ------- END Who section -------
+
+
+// ------- START Contact section -------
+.contact {
+  form {
+    margin-top: 2%;
+    .input-group {
+      margin-top: 10px;
+    }
+
+    .wrap-btn {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      align-content: stretch;
+    }
+  }
+}
+// ------- END Contact section -------
