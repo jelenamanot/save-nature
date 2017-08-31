@@ -89,6 +89,18 @@ a:hover {
   transition: all 0.3s ease-in;
 }
 
+.hamburger {
+  float: right;
+  color: #1c8788;
+  font-size: 24px;
+  margin-top: 18px;
+  display: none;
+}
+
+.hamburger:focus {
+  color: #146263;
+}
+
 header {
   padding-top: 2%;
   padding-bottom: 4%;
@@ -165,4 +177,49 @@ header nav ul li {
   background-color: #444444;
   font-size: 14px;
   padding: 1% 0 1% 0;
+}
+
+/*Small tablet to big tablet: 768px-1022px*/
+@media only screen and (max-width: 1023px) {
+  h1, h2, .green-heading {
+    font-size: 90px;
+  }
+
+  .green-heading, h2, .green-heading {
+    font-size: 60px;
+  }
+
+  .we-love-nature div img {
+    padding: 0 15%;
+  }
+
+  .do #div-one {
+    border-right: none;
+  }
+  .do #div-one img {
+    padding: 0;
+  }
+  .do #div-two {
+    text-align: center;
+  }
+
+  .who .green-area {
+    font-size: 17px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  header nav ul {
+    display: none;
+    float: none;
+  }
+  header nav ul li {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    border-bottom: 1px solid #1c8788;
+  }
+
+  .hamburger {
+    display: block;
+  }
 }

@@ -1,0 +1,49 @@
+/*Small tablet to big tablet: 768px-1022px*/
+@media only screen and (max-width: 1023px) {
+  h1 {
+    font-size: 90px;
+  }
+  .green-heading, h2 {
+    font-size: 60px;
+  }
+
+  .we-love-nature div img {
+    padding: 0 15%;
+    
+  }
+  // ---Section: Do---
+  .do {
+    #div-one {
+      border-right: none;
+      img {
+        padding: 0;
+      }
+    }
+    #div-two {
+      text-align: center;
+    }
+  }
+
+  // ---Section: Who---
+  .who {
+    .green-area {
+      font-size: 17px;
+    }
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  header nav ul {
+    display: none;
+    float: none;
+    li {
+      display: block;
+      text-align:center;
+      margin-top: 5px;
+      border-bottom: 1px solid $brand-color;
+    }
+  }
+  .hamburger {
+    display: block;
+  }
+}
