@@ -1,10 +1,3 @@
-// ------- START All sections -------
-.section {
-  padding: 2% 0 2% 0;
-}
-
-// ------- END All sections -------
-
 // ------- START Why section -------
 .why {
   background-color: $brand-color;
@@ -53,8 +46,10 @@
     margin-top: 2%;
     .input-group {
       margin-top: 10px;
+      .glyphicon-user, .glyphicon-globe, .glyphicon-question-sign, .glyphicon-envelope{
+        color: $brand-color;
+      }
     }
-
     .wrap-btn {
       display: flex;
       flex-direction: column;

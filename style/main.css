@@ -15,6 +15,10 @@ body {
   position: relative;
 }
 
+.section {
+  padding: 4% 0 4% 0;
+}
+
 h1, h2, .green-heading {
   font-family: "Amatic SC", cursive;
   color: #1c8788;
@@ -85,6 +89,10 @@ a:hover {
   transition: all 0.3s ease-in;
 }
 
+header {
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
 header nav {
   margin-bottom: 20px;
 }
@@ -93,7 +101,7 @@ header nav img {
 }
 header nav ul {
   float: right;
-  margin-top: 27px;
+  margin-top: 14px;
 }
 header nav ul li {
   display: inline;
@@ -102,10 +110,6 @@ header nav ul li {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   letter-spacing: 2px;
-}
-
-.section {
-  padding: 2% 0 2% 0;
 }
 
 .why {
@@ -143,6 +147,9 @@ header nav ul li {
 }
 .contact form .input-group {
   margin-top: 10px;
+}
+.contact form .input-group .glyphicon-user, .contact form .input-group .glyphicon-globe, .contact form .input-group .glyphicon-question-sign, .contact form .input-group .glyphicon-envelope {
+  color: #1c8788;
 }
 .contact form .wrap-btn {
   display: flex;
